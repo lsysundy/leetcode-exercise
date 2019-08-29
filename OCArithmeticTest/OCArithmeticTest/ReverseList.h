@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 // 链表节点定义
 typedef struct _node{
     // 数据
@@ -27,6 +29,8 @@ typedef struct _node{
 HGNode* reverseList(HGNode* head);
 
 - (void)traverseLink;
+
+NS_ASSUME_NONNULL_END
 
 
 

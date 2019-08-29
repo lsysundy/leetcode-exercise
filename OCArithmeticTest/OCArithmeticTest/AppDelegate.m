@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "ReverseString.h"
 #import "ReverseList.h"
+#import "MergeSortedList.h"
+#import "HashFind.h"
+#import "mediumFind.h"
 
 
 @interface AppDelegate ()
@@ -20,18 +23,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+//    字符串反转
 //    char ch[] = "hello,world";
 //    char_reverse(ch);
 //    printf("reverse result is %s \n ", ch);
     
-//    struct Node* head = constructList();
-//    printList(head);
-//    printf("===================\n");
-//    struct Node *newHead = reverseList(head);
-//    printList(newHead);
+//    数组反转
+//    ReverseList *list = [ReverseList new];
+//    [list traverseLink];
     
-    ReverseList *list = [ReverseList new];
-    [list traverseLink];
+//    有序数组合并
+//    int a[5] = {1,4,6,7,9};
+//    int b[8] = {2,3,5,6,8,10,11,12};
+//    int result[13];
+//    mergeList(a, 5, b, 8, result);
+//    for (int i = 0; i < 13; i++) {
+//        printf("%d ", result[i]);
+//    }
+    
+//    hash算法 求字符串第一个出现的不重复字符
+//    char cha[] = "abaccdeff";
+//    char fc = findFirstChar(cha);
+//    printf("this char is : %c", fc);
+    
+//    求无序数组中的中位数
+    int list[9] = {12, 3, 10, 8, 6, 7, 11, 13, 9};
+    int list1[10] = {12, 3, 10, 8, 6, 7, 11, 13, 9, 4};
+    int medium = findMedium(list, 9);
+    int medium1 = findMedium(list1, 10);
+    printf("jishu the medium is %d\n", medium);
+    printf("oushu the medium is %d", medium1);
     
     
     

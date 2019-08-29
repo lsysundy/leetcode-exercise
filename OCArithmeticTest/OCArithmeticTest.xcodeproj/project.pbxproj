@@ -15,6 +15,10 @@
 		52FA07B32313FEAA006C945F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA07B22313FEAA006C945F /* main.m */; };
 		52FA07BB2313FEE1006C945F /* ReverseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA07BA2313FEE1006C945F /* ReverseString.m */; };
 		52FA07BE2314D7E8006C945F /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA07BD2314D7E8006C945F /* ReverseList.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		52FA07C1231626A0006C945F /* MergeSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA07C0231626A0006C945F /* MergeSortedList.m */; };
+		52FA07C4231662CE006C945F /* HashFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA07C3231662CE006C945F /* HashFind.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		52FA07C7231673A7006C945F /* CommonSuperFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA07C6231673A7006C945F /* CommonSuperFind.m */; };
+		52FA07CA23169437006C945F /* mediumFind.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA07C923169437006C945F /* mediumFind.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,14 @@
 		52FA07BA2313FEE1006C945F /* ReverseString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseString.m; sourceTree = "<group>"; };
 		52FA07BC2314D7E8006C945F /* ReverseList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseList.h; sourceTree = "<group>"; };
 		52FA07BD2314D7E8006C945F /* ReverseList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseList.m; sourceTree = "<group>"; };
+		52FA07BF231626A0006C945F /* MergeSortedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSortedList.h; sourceTree = "<group>"; };
+		52FA07C0231626A0006C945F /* MergeSortedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSortedList.m; sourceTree = "<group>"; };
+		52FA07C2231662CE006C945F /* HashFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashFind.h; sourceTree = "<group>"; };
+		52FA07C3231662CE006C945F /* HashFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashFind.m; sourceTree = "<group>"; };
+		52FA07C5231673A7006C945F /* CommonSuperFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSuperFind.h; sourceTree = "<group>"; };
+		52FA07C6231673A7006C945F /* CommonSuperFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonSuperFind.m; sourceTree = "<group>"; };
+		52FA07C823169437006C945F /* mediumFind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mediumFind.h; sourceTree = "<group>"; };
+		52FA07C923169437006C945F /* mediumFind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mediumFind.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,14 @@
 				52FA07BD2314D7E8006C945F /* ReverseList.m */,
 				52FA07B92313FEE1006C945F /* ReverseString.h */,
 				52FA07BA2313FEE1006C945F /* ReverseString.m */,
+				52FA07BF231626A0006C945F /* MergeSortedList.h */,
+				52FA07C0231626A0006C945F /* MergeSortedList.m */,
+				52FA07C2231662CE006C945F /* HashFind.h */,
+				52FA07C3231662CE006C945F /* HashFind.m */,
+				52FA07C5231673A7006C945F /* CommonSuperFind.h */,
+				52FA07C6231673A7006C945F /* CommonSuperFind.m */,
+				52FA07C823169437006C945F /* mediumFind.h */,
+				52FA07C923169437006C945F /* mediumFind.m */,
 			);
 			path = OCArithmeticTest;
 			sourceTree = "<group>";
@@ -154,8 +174,12 @@
 				52FA07A82313FEA9006C945F /* ViewController.m in Sources */,
 				52FA07BB2313FEE1006C945F /* ReverseString.m in Sources */,
 				52FA07B32313FEAA006C945F /* main.m in Sources */,
+				52FA07C4231662CE006C945F /* HashFind.m in Sources */,
 				52FA07BE2314D7E8006C945F /* ReverseList.m in Sources */,
+				52FA07CA23169437006C945F /* mediumFind.m in Sources */,
+				52FA07C7231673A7006C945F /* CommonSuperFind.m in Sources */,
 				52FA07A52313FEA9006C945F /* AppDelegate.m in Sources */,
+				52FA07C1231626A0006C945F /* MergeSortedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +328,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wecash.o2oInstallment.OCArithmeticTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aa.OCArithmeticTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,7 +345,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wecash.o2oInstallment.OCArithmeticTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aa.OCArithmeticTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
