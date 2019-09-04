@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522D6E64231E8D0400F967E8 /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E63231E8D0400F967E8 /* NSTimer+WeakTimer.m */; };
 		52CA78A92318C44B006A5227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78A82318C44B006A5227 /* AppDelegate.m */; };
 		52CA78AC2318C44B006A5227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78AB2318C44B006A5227 /* ViewController.m */; };
 		52CA78AF2318C44B006A5227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CA78AD2318C44B006A5227 /* Main.storyboard */; };
@@ -16,9 +17,12 @@
 		52CA78BF2318C50E006A5227 /* libobjc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CA78BE2318C50E006A5227 /* libobjc.tbd */; };
 		52CA78C2231908E7006A5227 /* MObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78C1231908E7006A5227 /* MObject.m */; };
 		52CA78C523190943006A5227 /* MObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78C423190943006A5227 /* MObserver.m */; };
+		52CA78C8231CEFD1006A5227 /* RuntimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78C7231CEFD0006A5227 /* RuntimeObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		522D6E62231E8D0400F967E8 /* NSTimer+WeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTimer.h"; sourceTree = "<group>"; };
+		522D6E63231E8D0400F967E8 /* NSTimer+WeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTimer.m"; sourceTree = "<group>"; };
 		52CA78A42318C44B006A5227 /* CatogaryCodeAnalyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatogaryCodeAnalyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CA78A72318C44B006A5227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52CA78A82318C44B006A5227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,6 +38,8 @@
 		52CA78C1231908E7006A5227 /* MObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MObject.m; sourceTree = "<group>"; };
 		52CA78C323190943006A5227 /* MObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MObserver.h; sourceTree = "<group>"; };
 		52CA78C423190943006A5227 /* MObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MObserver.m; sourceTree = "<group>"; };
+		52CA78C6231CEFD0006A5227 /* RuntimeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeObject.h; sourceTree = "<group>"; };
+		52CA78C7231CEFD0006A5227 /* RuntimeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 				52CA78B22318C44C006A5227 /* LaunchScreen.storyboard */,
 				52CA78B52318C44C006A5227 /* Info.plist */,
 				52CA78B62318C44C006A5227 /* main.m */,
+				52CA78C6231CEFD0006A5227 /* RuntimeObject.h */,
+				52CA78C7231CEFD0006A5227 /* RuntimeObject.m */,
+				522D6E62231E8D0400F967E8 /* NSTimer+WeakTimer.h */,
+				522D6E63231E8D0400F967E8 /* NSTimer+WeakTimer.m */,
 			);
 			path = CatogaryCodeAnalyze;
 			sourceTree = "<group>";
@@ -166,6 +176,8 @@
 				52CA78C2231908E7006A5227 /* MObject.m in Sources */,
 				52CA78C523190943006A5227 /* MObserver.m in Sources */,
 				52CA78AC2318C44B006A5227 /* ViewController.m in Sources */,
+				52CA78C8231CEFD1006A5227 /* RuntimeObject.m in Sources */,
+				522D6E64231E8D0400F967E8 /* NSTimer+WeakTimer.m in Sources */,
 				52CA78B72318C44C006A5227 /* main.m in Sources */,
 				52CA78A92318C44B006A5227 /* AppDelegate.m in Sources */,
 			);

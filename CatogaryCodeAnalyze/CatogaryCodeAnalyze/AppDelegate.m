@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "MObject.h"
 #import "MObserver.h"
+#import "RuntimeObject.h"
 
 @interface AppDelegate ()
 
@@ -20,20 +21,26 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    MObject *obj = [[MObject alloc] init];
-    MObserver *observer = [[MObserver alloc] init];
+    //kvo
+//    MObject *obj = [[MObject alloc] init];
+//    MObserver *observer = [[MObserver alloc] init];
+////
 //
+//    [obj addObserver:observer forKeyPath:@"value" options:NSKeyValueObservingOptionNew context:nil];
+//    obj.value = 1;
+//
+////    1. 通过kvc设置value, kvo能否生效？是
+//    [obj setValue:@2 forKey:@"value"];
+////    kvc调用，最终会调用到obj的setter方法
+//
+////    2. 通过成员变量直接赋值value, kvo能否生效？否
+////    可以通过手动kvo方式就可以触发kvo 在直接赋值前后添加这两个方法 willChangeValueForKey   didChangeValueForKey
+//    [obj increase];
     
-    [obj addObserver:observer forKeyPath:@"value" options:NSKeyValueObservingOptionNew context:nil];
-    obj.value = 1;
-    
-//    1. 通过kvc设置value, kvo能否生效？是
-    [obj setValue:@2 forKey:@"value"];
-//    kvc调用，最终会调用到obj的setter方法
-    
-//    2. 通过成员变量直接赋值value, kvo能否生效？否
-//    可以通过手动kvo方式就可以触发kvo 在直接赋值前后添加这两个方法 willChangeValueForKey   didChangeValueForKey
-    [obj increase];
+    //runtime
+    RuntimeObject *obj = [RuntimeObject new];
+    //test只有声明没有实现
+    [obj test];
     
     return YES;
 }
