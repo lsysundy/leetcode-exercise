@@ -10,6 +10,7 @@
 #import "MObject.h"
 #import "MObserver.h"
 #import "RuntimeObject.h"
+#import "MCBlock.h"
 
 @interface AppDelegate ()
 
@@ -38,9 +39,13 @@
 //    [obj increase];
     
     //runtime
-    RuntimeObject *obj = [RuntimeObject new];
-    //test只有声明没有实现
-    [obj test];
+//    RuntimeObject *obj = [RuntimeObject new];
+//    //test只有声明没有实现
+//    [obj test];
+    
+    
+//    BLOCK
+    [[[MCBlock alloc] init] method_1];
     
     return YES;
 }

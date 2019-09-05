@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		522D6E64231E8D0400F967E8 /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E63231E8D0400F967E8 /* NSTimer+WeakTimer.m */; };
+		522D6E67231F5BFE00F967E8 /* MCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E66231F5BFE00F967E8 /* MCBlock.m */; };
+		522D6E6E231FA7C500F967E8 /* UserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E6D231FA7C500F967E8 /* UserCenter.m */; };
+		522D6E71231FAA3100F967E8 /* GroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E70231FAA3100F967E8 /* GroupObject.m */; };
 		52CA78A92318C44B006A5227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78A82318C44B006A5227 /* AppDelegate.m */; };
 		52CA78AC2318C44B006A5227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78AB2318C44B006A5227 /* ViewController.m */; };
 		52CA78AF2318C44B006A5227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CA78AD2318C44B006A5227 /* Main.storyboard */; };
@@ -23,6 +26,12 @@
 /* Begin PBXFileReference section */
 		522D6E62231E8D0400F967E8 /* NSTimer+WeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTimer.h"; sourceTree = "<group>"; };
 		522D6E63231E8D0400F967E8 /* NSTimer+WeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTimer.m"; sourceTree = "<group>"; };
+		522D6E65231F5BFE00F967E8 /* MCBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCBlock.h; sourceTree = "<group>"; };
+		522D6E66231F5BFE00F967E8 /* MCBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCBlock.m; sourceTree = "<group>"; };
+		522D6E6C231FA7C500F967E8 /* UserCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserCenter.h; sourceTree = "<group>"; };
+		522D6E6D231FA7C500F967E8 /* UserCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCenter.m; sourceTree = "<group>"; };
+		522D6E6F231FAA3100F967E8 /* GroupObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupObject.h; sourceTree = "<group>"; };
+		522D6E70231FAA3100F967E8 /* GroupObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupObject.m; sourceTree = "<group>"; };
 		52CA78A42318C44B006A5227 /* CatogaryCodeAnalyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatogaryCodeAnalyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CA78A72318C44B006A5227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52CA78A82318C44B006A5227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,9 +63,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		522D6E6B231FA79E00F967E8 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				522D6E6C231FA7C500F967E8 /* UserCenter.h */,
+				522D6E6D231FA7C500F967E8 /* UserCenter.m */,
+				522D6E6F231FAA3100F967E8 /* GroupObject.h */,
+				522D6E70231FAA3100F967E8 /* GroupObject.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
 		52CA789B2318C44B006A5227 = {
 			isa = PBXGroup;
 			children = (
+				522D6E65231F5BFE00F967E8 /* MCBlock.h */,
+				522D6E66231F5BFE00F967E8 /* MCBlock.m */,
 				52CA78A62318C44B006A5227 /* CatogaryCodeAnalyze */,
 				52CA78A52318C44B006A5227 /* Products */,
 				52CA78BD2318C50E006A5227 /* Frameworks */,
@@ -74,6 +96,7 @@
 		52CA78A62318C44B006A5227 /* CatogaryCodeAnalyze */ = {
 			isa = PBXGroup;
 			children = (
+				522D6E6B231FA79E00F967E8 /* GCD */,
 				52CA78A72318C44B006A5227 /* AppDelegate.h */,
 				52CA78A82318C44B006A5227 /* AppDelegate.m */,
 				52CA78C0231908E7006A5227 /* MObject.h */,
@@ -174,12 +197,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CA78C2231908E7006A5227 /* MObject.m in Sources */,
+				522D6E67231F5BFE00F967E8 /* MCBlock.m in Sources */,
 				52CA78C523190943006A5227 /* MObserver.m in Sources */,
 				52CA78AC2318C44B006A5227 /* ViewController.m in Sources */,
+				522D6E71231FAA3100F967E8 /* GroupObject.m in Sources */,
 				52CA78C8231CEFD1006A5227 /* RuntimeObject.m in Sources */,
 				522D6E64231E8D0400F967E8 /* NSTimer+WeakTimer.m in Sources */,
 				52CA78B72318C44C006A5227 /* main.m in Sources */,
 				52CA78A92318C44B006A5227 /* AppDelegate.m in Sources */,
+				522D6E6E231FA7C500F967E8 /* UserCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
