@@ -11,6 +11,7 @@
 		522D6E67231F5BFE00F967E8 /* MCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E66231F5BFE00F967E8 /* MCBlock.m */; };
 		522D6E6E231FA7C500F967E8 /* UserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E6D231FA7C500F967E8 /* UserCenter.m */; };
 		522D6E71231FAA3100F967E8 /* GroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E70231FAA3100F967E8 /* GroupObject.m */; };
+		522D6E752320EA7500F967E8 /* MCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E742320EA7500F967E8 /* MCObject.m */; };
 		52CA78A92318C44B006A5227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78A82318C44B006A5227 /* AppDelegate.m */; };
 		52CA78AC2318C44B006A5227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78AB2318C44B006A5227 /* ViewController.m */; };
 		52CA78AF2318C44B006A5227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CA78AD2318C44B006A5227 /* Main.storyboard */; };
@@ -32,6 +33,8 @@
 		522D6E6D231FA7C500F967E8 /* UserCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCenter.m; sourceTree = "<group>"; };
 		522D6E6F231FAA3100F967E8 /* GroupObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupObject.h; sourceTree = "<group>"; };
 		522D6E70231FAA3100F967E8 /* GroupObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupObject.m; sourceTree = "<group>"; };
+		522D6E732320EA7500F967E8 /* MCObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCObject.h; sourceTree = "<group>"; };
+		522D6E742320EA7500F967E8 /* MCObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCObject.m; sourceTree = "<group>"; };
 		52CA78A42318C44B006A5227 /* CatogaryCodeAnalyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatogaryCodeAnalyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CA78A72318C44B006A5227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52CA78A82318C44B006A5227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +77,15 @@
 			path = GCD;
 			sourceTree = "<group>";
 		};
+		522D6E722320E9F800F967E8 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				522D6E732320EA7500F967E8 /* MCObject.h */,
+				522D6E742320EA7500F967E8 /* MCObject.m */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
 		52CA789B2318C44B006A5227 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +108,7 @@
 		52CA78A62318C44B006A5227 /* CatogaryCodeAnalyze */ = {
 			isa = PBXGroup;
 			children = (
+				522D6E722320E9F800F967E8 /* RunLoop */,
 				522D6E6B231FA79E00F967E8 /* GCD */,
 				52CA78A72318C44B006A5227 /* AppDelegate.h */,
 				52CA78A82318C44B006A5227 /* AppDelegate.m */,
@@ -198,6 +211,7 @@
 			files = (
 				52CA78C2231908E7006A5227 /* MObject.m in Sources */,
 				522D6E67231F5BFE00F967E8 /* MCBlock.m in Sources */,
+				522D6E752320EA7500F967E8 /* MCObject.m in Sources */,
 				52CA78C523190943006A5227 /* MObserver.m in Sources */,
 				52CA78AC2318C44B006A5227 /* ViewController.m in Sources */,
 				522D6E71231FAA3100F967E8 /* GroupObject.m in Sources */,

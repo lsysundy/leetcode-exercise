@@ -25,7 +25,7 @@
     return self;
 }
 
-- (void)handle { 
+- (void)handle {
 //    创建一个group
     dispatch_group_t group = dispatch_group_create();
 //    for循环遍历各个元素执行操作
