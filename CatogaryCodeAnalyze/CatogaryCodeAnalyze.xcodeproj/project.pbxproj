@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,21 @@
 		522D6E6E231FA7C500F967E8 /* UserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E6D231FA7C500F967E8 /* UserCenter.m */; };
 		522D6E71231FAA3100F967E8 /* GroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E70231FAA3100F967E8 /* GroupObject.m */; };
 		522D6E752320EA7500F967E8 /* MCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 522D6E742320EA7500F967E8 /* MCObject.m */; };
+		528D493C2325EE13006F3518 /* BusinessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D493B2325EE13006F3518 /* BusinessObject.m */; };
+		528D49402325F666006F3518 /* BridgeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D493F2325F666006F3518 /* BridgeDemo.m */; };
+		528D49432325F67F006F3518 /* BaseObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D49422325F67F006F3518 /* BaseObjectA.m */; };
+		528D49462325F69D006F3518 /* ObjectA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D49452325F69D006F3518 /* ObjectA1.m */; };
+		528D49492325F6CC006F3518 /* ObjectA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D49482325F6CC006F3518 /* ObjectA2.m */; };
+		528D494C2325F709006F3518 /* BaseObjectB.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D494B2325F709006F3518 /* BaseObjectB.m */; };
+		528D494F2325F71C006F3518 /* ObjectB1.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D494E2325F71C006F3518 /* ObjectB1.m */; };
+		528D49522325F72A006F3518 /* ObjectB2.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D49512325F72A006F3518 /* ObjectB2.m */; };
+		528D49562325FE7E006F3518 /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D49552325FE7E006F3518 /* Target.m */; };
+		528D49592325FE97006F3518 /* CoolTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D49582325FE97006F3518 /* CoolTarget.m */; };
+		528D495D2325FFDD006F3518 /* SingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D495C2325FFDD006F3518 /* SingleInstance.m */; };
+		528D49612326034E006F3518 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D49602326034E006F3518 /* Command.m */; };
+		528D496423260466006F3518 /* CommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D496323260466006F3518 /* CommandManager.m */; };
+		528D497523290A1C006F3518 /* AdPopUps.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D497423290A1C006F3518 /* AdPopUps.m */; };
+		528D497823290B10006F3518 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D497723290B10006F3518 /* TestViewController.m */; };
 		52CA78A92318C44B006A5227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78A82318C44B006A5227 /* AppDelegate.m */; };
 		52CA78AC2318C44B006A5227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78AB2318C44B006A5227 /* ViewController.m */; };
 		52CA78AF2318C44B006A5227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CA78AD2318C44B006A5227 /* Main.storyboard */; };
@@ -22,9 +37,13 @@
 		52CA78C2231908E7006A5227 /* MObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78C1231908E7006A5227 /* MObject.m */; };
 		52CA78C523190943006A5227 /* MObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78C423190943006A5227 /* MObserver.m */; };
 		52CA78C8231CEFD1006A5227 /* RuntimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA78C7231CEFD0006A5227 /* RuntimeObject.m */; };
+		AE15FF141AF5671CB9F964C0 /* Pods_CatogaryCodeAnalyze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DE370453A61BEE6D555B0A /* Pods_CatogaryCodeAnalyze.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D55D9FF025F662E3EF0EA12 /* Pods-CatogaryCodeAnalyze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatogaryCodeAnalyze.release.xcconfig"; path = "Target Support Files/Pods-CatogaryCodeAnalyze/Pods-CatogaryCodeAnalyze.release.xcconfig"; sourceTree = "<group>"; };
+		12DE370453A61BEE6D555B0A /* Pods_CatogaryCodeAnalyze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatogaryCodeAnalyze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2190CEE576D0BA12C2FA2B13 /* Pods-CatogaryCodeAnalyze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatogaryCodeAnalyze.debug.xcconfig"; path = "Target Support Files/Pods-CatogaryCodeAnalyze/Pods-CatogaryCodeAnalyze.debug.xcconfig"; sourceTree = "<group>"; };
 		522D6E62231E8D0400F967E8 /* NSTimer+WeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTimer.h"; sourceTree = "<group>"; };
 		522D6E63231E8D0400F967E8 /* NSTimer+WeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTimer.m"; sourceTree = "<group>"; };
 		522D6E65231F5BFE00F967E8 /* MCBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCBlock.h; sourceTree = "<group>"; };
@@ -35,6 +54,37 @@
 		522D6E70231FAA3100F967E8 /* GroupObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupObject.m; sourceTree = "<group>"; };
 		522D6E732320EA7500F967E8 /* MCObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCObject.h; sourceTree = "<group>"; };
 		522D6E742320EA7500F967E8 /* MCObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCObject.m; sourceTree = "<group>"; };
+		528D493A2325EE13006F3518 /* BusinessObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessObject.h; sourceTree = "<group>"; };
+		528D493B2325EE13006F3518 /* BusinessObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessObject.m; sourceTree = "<group>"; };
+		528D493E2325F666006F3518 /* BridgeDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeDemo.h; sourceTree = "<group>"; };
+		528D493F2325F666006F3518 /* BridgeDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeDemo.m; sourceTree = "<group>"; };
+		528D49412325F67F006F3518 /* BaseObjectA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObjectA.h; sourceTree = "<group>"; };
+		528D49422325F67F006F3518 /* BaseObjectA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObjectA.m; sourceTree = "<group>"; };
+		528D49442325F69D006F3518 /* ObjectA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectA1.h; sourceTree = "<group>"; };
+		528D49452325F69D006F3518 /* ObjectA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectA1.m; sourceTree = "<group>"; };
+		528D49472325F6CC006F3518 /* ObjectA2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectA2.h; sourceTree = "<group>"; };
+		528D49482325F6CC006F3518 /* ObjectA2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectA2.m; sourceTree = "<group>"; };
+		528D494A2325F709006F3518 /* BaseObjectB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObjectB.h; sourceTree = "<group>"; };
+		528D494B2325F709006F3518 /* BaseObjectB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObjectB.m; sourceTree = "<group>"; };
+		528D494D2325F71C006F3518 /* ObjectB1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectB1.h; sourceTree = "<group>"; };
+		528D494E2325F71C006F3518 /* ObjectB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectB1.m; sourceTree = "<group>"; };
+		528D49502325F72A006F3518 /* ObjectB2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectB2.h; sourceTree = "<group>"; };
+		528D49512325F72A006F3518 /* ObjectB2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectB2.m; sourceTree = "<group>"; };
+		528D49542325FE7E006F3518 /* Target.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		528D49552325FE7E006F3518 /* Target.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target.m; sourceTree = "<group>"; };
+		528D49572325FE97006F3518 /* CoolTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolTarget.h; sourceTree = "<group>"; };
+		528D49582325FE97006F3518 /* CoolTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolTarget.m; sourceTree = "<group>"; };
+		528D495B2325FFDD006F3518 /* SingleInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleInstance.h; sourceTree = "<group>"; };
+		528D495C2325FFDD006F3518 /* SingleInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleInstance.m; sourceTree = "<group>"; };
+		528D495F2326034E006F3518 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		528D49602326034E006F3518 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		528D496223260466006F3518 /* CommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandManager.h; sourceTree = "<group>"; };
+		528D496323260466006F3518 /* CommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandManager.m; sourceTree = "<group>"; };
+		528D497223290926006F3518 /* PopUpsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopUpsProtocol.h; sourceTree = "<group>"; };
+		528D497323290A1C006F3518 /* AdPopUps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdPopUps.h; sourceTree = "<group>"; };
+		528D497423290A1C006F3518 /* AdPopUps.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdPopUps.m; sourceTree = "<group>"; };
+		528D497623290B10006F3518 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		528D497723290B10006F3518 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		52CA78A42318C44B006A5227 /* CatogaryCodeAnalyze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatogaryCodeAnalyze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CA78A72318C44B006A5227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52CA78A82318C44B006A5227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CA78BF2318C50E006A5227 /* libobjc.tbd in Frameworks */,
+				AE15FF141AF5671CB9F964C0 /* Pods_CatogaryCodeAnalyze.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +137,79 @@
 			path = RunLoop;
 			sourceTree = "<group>";
 		};
+		528D49392325EDEB006F3518 /* Responder */ = {
+			isa = PBXGroup;
+			children = (
+				528D493A2325EE13006F3518 /* BusinessObject.h */,
+				528D493B2325EE13006F3518 /* BusinessObject.m */,
+			);
+			path = Responder;
+			sourceTree = "<group>";
+		};
+		528D493D2325F64B006F3518 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				528D493E2325F666006F3518 /* BridgeDemo.h */,
+				528D493F2325F666006F3518 /* BridgeDemo.m */,
+				528D49412325F67F006F3518 /* BaseObjectA.h */,
+				528D49422325F67F006F3518 /* BaseObjectA.m */,
+				528D49442325F69D006F3518 /* ObjectA1.h */,
+				528D49452325F69D006F3518 /* ObjectA1.m */,
+				528D49472325F6CC006F3518 /* ObjectA2.h */,
+				528D49482325F6CC006F3518 /* ObjectA2.m */,
+				528D494A2325F709006F3518 /* BaseObjectB.h */,
+				528D494B2325F709006F3518 /* BaseObjectB.m */,
+				528D494D2325F71C006F3518 /* ObjectB1.h */,
+				528D494E2325F71C006F3518 /* ObjectB1.m */,
+				528D49502325F72A006F3518 /* ObjectB2.h */,
+				528D49512325F72A006F3518 /* ObjectB2.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		528D49532325FE60006F3518 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				528D49542325FE7E006F3518 /* Target.h */,
+				528D49552325FE7E006F3518 /* Target.m */,
+				528D49572325FE97006F3518 /* CoolTarget.h */,
+				528D49582325FE97006F3518 /* CoolTarget.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		528D495A2325FFA9006F3518 /* SingleInstance */ = {
+			isa = PBXGroup;
+			children = (
+				528D495B2325FFDD006F3518 /* SingleInstance.h */,
+				528D495C2325FFDD006F3518 /* SingleInstance.m */,
+			);
+			path = SingleInstance;
+			sourceTree = "<group>";
+		};
+		528D495E23260332006F3518 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				528D495F2326034E006F3518 /* Command.h */,
+				528D49602326034E006F3518 /* Command.m */,
+				528D496223260466006F3518 /* CommandManager.h */,
+				528D496323260466006F3518 /* CommandManager.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		528D49702329082B006F3518 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				528D497223290926006F3518 /* PopUpsProtocol.h */,
+				528D497323290A1C006F3518 /* AdPopUps.h */,
+				528D497423290A1C006F3518 /* AdPopUps.m */,
+				528D497623290B10006F3518 /* TestViewController.h */,
+				528D497723290B10006F3518 /* TestViewController.m */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
 		52CA789B2318C44B006A5227 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +218,7 @@
 				52CA78A62318C44B006A5227 /* CatogaryCodeAnalyze */,
 				52CA78A52318C44B006A5227 /* Products */,
 				52CA78BD2318C50E006A5227 /* Frameworks */,
+				C6F7C041830E1284D9B26E2E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +233,12 @@
 		52CA78A62318C44B006A5227 /* CatogaryCodeAnalyze */ = {
 			isa = PBXGroup;
 			children = (
+				528D49702329082B006F3518 /* Dependency */,
+				528D495E23260332006F3518 /* Command */,
+				528D495A2325FFA9006F3518 /* SingleInstance */,
+				528D49532325FE60006F3518 /* Adapter */,
+				528D493D2325F64B006F3518 /* Bridge */,
+				528D49392325EDEB006F3518 /* Responder */,
 				522D6E722320E9F800F967E8 /* RunLoop */,
 				522D6E6B231FA79E00F967E8 /* GCD */,
 				52CA78A72318C44B006A5227 /* AppDelegate.h */,
@@ -135,8 +266,18 @@
 			isa = PBXGroup;
 			children = (
 				52CA78BE2318C50E006A5227 /* libobjc.tbd */,
+				12DE370453A61BEE6D555B0A /* Pods_CatogaryCodeAnalyze.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6F7C041830E1284D9B26E2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2190CEE576D0BA12C2FA2B13 /* Pods-CatogaryCodeAnalyze.debug.xcconfig */,
+				0D55D9FF025F662E3EF0EA12 /* Pods-CatogaryCodeAnalyze.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52CA78BA2318C44C006A5227 /* Build configuration list for PBXNativeTarget "CatogaryCodeAnalyze" */;
 			buildPhases = (
+				EB2F457CE4AA35A6499ADB27 /* [CP] Check Pods Manifest.lock */,
 				52CA78A02318C44B006A5227 /* Sources */,
 				52CA78A12318C44B006A5227 /* Frameworks */,
 				52CA78A22318C44B006A5227 /* Resources */,
+				91C573AFE22918C73923A06D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,22 +347,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91C573AFE22918C73923A06D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatogaryCodeAnalyze/Pods-CatogaryCodeAnalyze-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatogaryCodeAnalyze/Pods-CatogaryCodeAnalyze-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatogaryCodeAnalyze/Pods-CatogaryCodeAnalyze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB2F457CE4AA35A6499ADB27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatogaryCodeAnalyze-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52CA78A02318C44B006A5227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528D494C2325F709006F3518 /* BaseObjectB.m in Sources */,
 				52CA78C2231908E7006A5227 /* MObject.m in Sources */,
+				528D49402325F666006F3518 /* BridgeDemo.m in Sources */,
 				522D6E67231F5BFE00F967E8 /* MCBlock.m in Sources */,
 				522D6E752320EA7500F967E8 /* MCObject.m in Sources */,
+				528D496423260466006F3518 /* CommandManager.m in Sources */,
 				52CA78C523190943006A5227 /* MObserver.m in Sources */,
+				528D49432325F67F006F3518 /* BaseObjectA.m in Sources */,
 				52CA78AC2318C44B006A5227 /* ViewController.m in Sources */,
 				522D6E71231FAA3100F967E8 /* GroupObject.m in Sources */,
+				528D497523290A1C006F3518 /* AdPopUps.m in Sources */,
+				528D494F2325F71C006F3518 /* ObjectB1.m in Sources */,
+				528D49562325FE7E006F3518 /* Target.m in Sources */,
+				528D493C2325EE13006F3518 /* BusinessObject.m in Sources */,
+				528D497823290B10006F3518 /* TestViewController.m in Sources */,
 				52CA78C8231CEFD1006A5227 /* RuntimeObject.m in Sources */,
 				522D6E64231E8D0400F967E8 /* NSTimer+WeakTimer.m in Sources */,
+				528D49462325F69D006F3518 /* ObjectA1.m in Sources */,
 				52CA78B72318C44C006A5227 /* main.m in Sources */,
+				528D49612326034E006F3518 /* Command.m in Sources */,
+				528D49522325F72A006F3518 /* ObjectB2.m in Sources */,
+				528D49592325FE97006F3518 /* CoolTarget.m in Sources */,
 				52CA78A92318C44B006A5227 /* AppDelegate.m in Sources */,
 				522D6E6E231FA7C500F967E8 /* UserCenter.m in Sources */,
+				528D495D2325FFDD006F3518 /* SingleInstance.m in Sources */,
+				528D49492325F6CC006F3518 /* ObjectA2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +559,7 @@
 		};
 		52CA78BB2318C44C006A5227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2190CEE576D0BA12C2FA2B13 /* Pods-CatogaryCodeAnalyze.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,12 +570,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aa.CatogaryCodeAnalyze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		52CA78BC2318C44C006A5227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D55D9FF025F662E3EF0EA12 /* Pods-CatogaryCodeAnalyze.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +588,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aa.CatogaryCodeAnalyze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
