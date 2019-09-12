@@ -27,6 +27,8 @@
     popUps.content = @"...";
     popUps.type = @"...";
     [popUps execute];
+    
+    
 }
 
 /*

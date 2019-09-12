@@ -10,6 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
 @ protocol PopUpsProtocol <NSObject>
 
 //活动类型（标识符）
