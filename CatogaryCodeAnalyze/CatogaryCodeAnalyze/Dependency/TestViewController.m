@@ -22,6 +22,7 @@
 
 
 + (void)show {
+
     id<PopUpsProtocol> popUps = [AdPopUps new];
     popUps.url = @"...";
     popUps.content = @"...";
