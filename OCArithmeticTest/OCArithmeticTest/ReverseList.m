@@ -36,7 +36,7 @@ HGNode* reverseList(HGNode* head) {
     HGNode *head = NULL;
     HGNode *cur = NULL;
     for (int i = 1; i < 5; i++) {
-        //        分配链表节点空间
+        //分配链表节点空间
         HGNode *node = malloc(sizeof(HGNode));
         node->data = self.dataArr[i-1];
         if (head == NULL) {
